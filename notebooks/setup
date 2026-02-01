@@ -1,0 +1,51 @@
+1️⃣ Install Python & Jupyter Notebook
+Why: You need Python for cleaning, analysis, and visualization.
+Steps:
+
+1. Go to https://www.anaconda.com/products/distribution
+2. Download Anaconda Individual Edition (includes Python + Jupyter Notebook + common libraries).
+3. Install it using default options.
+4. Open Anaconda Navigator → Launch Jupyter Notebook
+Test it: create a new Python notebook, type print("Hello World") → Run.
+✅ If it prints “Hello World”, you’re good.
+Tip: Later you’ll use pandas, numpy, matplotlib inside Jupyter for analysis.
+
+
+2️⃣ Create GitHub Repository
+Why: GitHub will store your project, show recruiters you can produce work, and track your progress.
+Steps:
+
+1. Go to https://github.com → Sign up or log in.
+2. Click “New repository”
+3. Name it: oslo-housing-affordability
+4. Description: “Analyzing housing prices and affordability in Oslo (2015–2025)”
+5. Choose Public → Initialize with README
+6. Click Create repository
+Next: Clone it to your computer (or use GitHub Desktop):
+
+Download GitHub Desktop
+Sign in → Clone repository to your computer → You’ll save notebooks and scripts here
+
+
+3️⃣ Outline 5 Business Questions
+Why: This defines your analysis focus. You can always refine later.
+Example Questions (you can copy & adapt):
+
+1. Which districts in Oslo have the highest increase in housing prices (2015–2025)?
+2. Are incomes keeping up with housing price growth across districts?
+3. Which districts are becoming least affordable for average households?
+4. How has inflation affected housing affordability over time?
+5. Can we predict next year’s price trends based on historical data?
+Tip: Keep them simple, actionable, and data-driven.
+
+
+4️⃣ Organize Your Workspace
+
+Inside your GitHub repo folder, create subfolders:
+·       oslo-housing-affordability/
+·           ├── data/        # raw and cleaned datasets
+·           ├── notebooks/   # Jupyter notebooks
+·           ├── sql/         # SQL scripts
+·           ├── dashboard/   # Power BI files
+·           └── README.md    # project description
+
